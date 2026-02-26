@@ -1,0 +1,6 @@
+".\Objects\STARTUP.obj",
+".\Objects\Do_an_I.obj",
+".\Objects\Do_an_I_DS1307.obj",
+".\Objects\Do_an_I_LCD.obj" 
+TO ".\Objects\Do_an_I" 
+PRINT(".\Listings\Do_an_I.m51") RAMSIZE(256) 

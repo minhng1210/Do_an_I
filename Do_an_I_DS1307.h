@@ -1,0 +1,12 @@
+void Delay();
+void I2C_Init();
+void I2C_Start();
+bit I2C_Get_Ack();
+bit I2C_Write(unsigned char dat);
+void I2C_Ack();
+void I2C_Nak();
+unsigned char I2C_Read(bit ack);
+void I2C_Stop();
+void DS1307_Init();
+void DS1307_Read_Time(unsigned int *hour, unsigned int *minute, unsigned int *second, unsigned int *day, unsigned int *date, unsigned int *month, unsigned int *year);
+void DS1307_Write_Time(unsigned int hour, unsigned int minute, unsigned int second, unsigned char day, unsigned char date, unsigned char month, unsigned char year);
